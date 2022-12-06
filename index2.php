@@ -6,16 +6,19 @@ $quantityTask = 3;
 
 $name = readline("Как вас завут? ");
 $age =  (int)readline("Сколько вам лет? ");
+
 $count = 1;
 $task = "task$count";
 $time = "time$count";
 $$task = readline(TASK_STRING);
 $$time = (int)readline(TIME_STRING);
+
 $count++;
 $task = "task$count";
 $time = "time$count";
 $$task = readline(TASK_STRING);
 $$time = (int)readline(TIME_STRING);
+
 $count++;
 $task = "task$count";
 $time = "time$count";
